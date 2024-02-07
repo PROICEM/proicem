@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-bs-theme="light" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -10,6 +10,14 @@
     <meta name="description" content="PROICEM CONSTRUCTORA">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://proicem.com/assets/img/LOGO3.png">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Brand",
+            "url": "https://proicem.com"
+        }
+    </script>
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png">
@@ -23,52 +31,63 @@
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav" style="border-color: var(--bs-navbar-brand-color);background: var(--bs-gray-900);--bs-dark: #212529;--bs-dark-rgb: 33,37,41;">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" id="mainNav" style="border-color: var(--bs-navbar-brand-color);background: var(--bs-gray-900);--bs-dark: #212529;--bs-dark-rgb: 33,37,41;">
         <div class="container"><a class="navbar-brand" href="#page-top" style="background: url(&quot;assets/img/NEG.png&quot;) center / contain no-repeat, var(--bs-gray-dark);color: var(--bs-navbar-disabled-color);padding-right: 0px;margin-right: -23px;padding-bottom: 29px;padding-left: 125px;width: 180px;height: 53px;"></a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Proyectos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
                     <li class="nav-item"></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section id="services" style="padding-bottom: 25px;padding-top: 100px;background: rgb(248,249,250);">
+    <section style="padding-bottom: 25px;padding-top: 100px;background: rgb(248,249,250);">
         <section style="text-align: center;padding: 0px 0px;padding-bottom: 25px;overflow: hidden;">
-            <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
-                <div class="carousel-inner">
-                    <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/logos/LogoAncho.png" alt="Slide Image"></div>
-                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/carousel/3.jpg" alt="Slide Image"></div>
-                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/carousel/2.png" alt="Slide Image"></div>
-                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/carousel/1.png" alt="Slide Image"></div>
-                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/carousel/5.png" alt="Slide Image"></div>
-                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/carousel/3_.jpg" alt="Slide Image"></div>
+            <header class="masthead" style="background: url(&quot;assets/img/proyectos/7.jpeg&quot;) center / cover no-repeat;">
+                <div class="container">
+                    <div class="intro-text">
+                        <div class="intro-lead-in"></div>
+                        <div class="intro-heading text-uppercase"><span style="color: var(--bs-body-bg);border-color: var(--bs-body-bg);padding-top: 0px;margin-top: 0px;">Tu Constructora de confianza</span></div><a class="btn btn-primary btn-xl text-uppercase" role="button" href="mailto:informacion@proicem.com?subject=Solicitud de Información&amp;body=Quiero obtener más información sobre los servicios que ofrece su empresa PROICEM" style="color: var(--bs-emphasis-color);">Contacto</a>
+                    </div>
                 </div>
-                <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
-                    <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
-                    <li data-bs-target="#carousel-1" data-bs-slide-to="3"></li>
-                    <li data-bs-target="#carousel-1" data-bs-slide-to="4"></li>
-                    <li data-bs-target="#carousel-1" data-bs-slide-to="5"></li>
-                </ol>
-            </div>
+            </header>
         </section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center" style="margin-top: 25px;">
+                <div class="col">
+                    <section id="about" style="padding-bottom: 25px;padding-top: 25px;background: rgb(248,249,250);">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 text-center" style="padding: 0px;">
+                                    <h2 class="text-uppercase">Nosotros</h2>
+                                    <h3 class="text-muted section-subheading" style="margin-bottom: 25px;text-align: justify;">Nuestra empresa ha desarrollado sus más importantes proyectos en la construcción, restauración y remodelación de edificaciones privadas del sector industrial, aplicando en alcances de obra civil, instalaciones electromecánicas y acabados en general. <br>Esta experiencia ha otorgado a la Empresa el suficiente respaldo y confianza para brindar a nuestros clientes un servicio eficiente y de calidad, así mismo nos permite estar presentes en diversos proyectos de edificación, obras institucionales, comerciales e industriales para clientes con un alto grado de exigencia y estándares de calidad.</h3>
+                                    <h4 class="text-uppercase">Misión</h4>
+                                    <h3 class="text-muted section-subheading" style="margin-bottom: 25px;text-align: justify;">Somos una empresa dedicada a direccionar, ejecutar y gestionar de manera eficaz y transparente proyectos y prestación de servicios directos en el ámbito de la construcción, con la participación de personal capacitado y estimulado en una cultura orientada a la satisfacción de nuestros clientes, a la práctica del trabajo con responsabilidad, seguridad y al respeto de nuestro entorno natural, en busca de lograr mantener un nivel competitivo, equitativo, contribuyendo al desarrollo económico y social del país.<br><br>Nuestra empresa cuenta con un panel técnico conformado por profesionales idóneos, con valores, capacitados y preparados los cuales hacen de nuestra compañía una empresa capaz para la ejecución trabajos de ingeniería</h3>
+                                    <h4 class="text-uppercase">Visión</h4>
+                                    <h3 class="text-muted section-subheading" style="text-align: justify;">Ser referencia en los sectores de la construcción civil, electricidad y mecánica con el logro de la excelencia en nuestros servicios, teniendo en cuenta siempre que nuestra objetivo y mayor satisfacción es la aceptación de nuestros clientes.</h3>
+                                    <figure class="figure"></figure>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <ul class="list-group timeline"></ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-12 text-center" id="services" style="margin-top: 25px;">
                     <h2 class="text-uppercase section-heading">Servicios</h2>
                     <h3 class="text-muted section-subheading">Desde la planeación de tu proyecto, hasta acabados perfectos.</h3>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-building fa-stack-1x fa-inverse" style="font-size: 95px;padding-top: 19px;">
-                            <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"></path>
-                            <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"></path>
+                            <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"></path>
+                            <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z"></path>
                         </svg></span>
                     <h4 class="section-heading">Ingeniería Civil</h4>
                     <ul class="text-muted">
@@ -139,75 +158,6 @@
                 </div>
                 <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link"><img class="img-fluid" src="assets/img/proyectos/img%203%20-%20proyectos.png"></a>
                     <div class="portfolio-caption"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="about" style="padding-bottom: 25px;padding-top: 25px;background: rgb(248,249,250);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center" style="padding: 0px;">
-                    <h2 class="text-uppercase">Nosotros</h2>
-                    <h3 class="text-muted section-subheading" style="margin-bottom: 25px;">Contamos con la mejor experiencia y calidad para ser tu aliado en construcción.</h3>
-                    <h4 class="text-uppercase">Misión</h4>
-                    <h3 class="text-muted section-subheading" style="margin-bottom: 25px;">Brindar servicios de construcción innovadores y personalizados, cumpliendo los más altos estándares de calidad, seguridad y compromiso con la satisfacción de nuestros clientes.</h3>
-                    <h4 class="text-uppercase">Visión</h4>
-                    <h3 class="text-muted section-subheading">Ser una empresa líder en implementación de tecnología y procesos innovadores en la industria de la construcción, optimizando la eficiencia y calidad de nuestros proyectos.</h3>
-                    <figure class="figure"></figure>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-group timeline">
-                        <li class="list-group-item">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/proyectos/4.jpeg" width="118" height="157"></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2018</h4>
-                                    <h4 class="subheading">Nuestro inicio</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Nuestros primeros proyectos fueron pequeñas obras de construcción y diseño.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item timeline-inverted">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/proyectos/img%205%20-%20proyectos.png" width="119" height="159"></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2020</h4>
-                                    <h4 class="subheading">Experiencia</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Después de un tiempo crecimos para poder atender proyectos más grandes. Teniendo la experiencia necesaria para asegurar la calidad de nuestras obras.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/proyectos/8.jpeg" width="118" height="157"></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2023</h4>
-                                    <h4 class="subheading">Calidad</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Ahora, orgullosamente podemos ofrecer una variedad de servicios para cumplir los objetivos de nuestros clientes de forma eficaz asegurando una calidad excepcional.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item timeline-inverted">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/2827348.png" width="130" height="130" style="border-radius: 50%;padding-top: 10px;"></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Hoy</h4>
-                                    <h4 class="subheading">¡Se parte de nuestra historia!</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Únete a ésta historia y hagamos realidad tus proyectos juntos.</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -394,7 +344,7 @@
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/agency.js"></script>
 </body>
 
